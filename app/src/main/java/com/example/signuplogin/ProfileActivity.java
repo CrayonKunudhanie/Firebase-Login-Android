@@ -52,7 +52,6 @@ public class ProfileActivity extends AppCompatActivity {
         String emailUser = intent.getStringExtra("email");
         String usernameUser = intent.getStringExtra("username");
         String passwordUser = intent.getStringExtra("password");
-
         titleName.setText(nameUser);
         titleUsername.setText(usernameUser);
         profileName.setText(nameUser);
